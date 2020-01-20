@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import data from './data.js';
+import Routes from './Routes.js';
 
 class App extends Component {
   render() {
@@ -9,9 +11,7 @@ class App extends Component {
           <h1 className="title">Airline Routes</h1>
         </header>
         <section>
-          <p>
-            Welcome to the app!
-          </p>
+          <Routes routes={data.routes}/>
         </section>
       </div>
     );
