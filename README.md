@@ -1,6 +1,6 @@
 # A filterable database of airline routes built with React
 
-It shows a database of airline routes that is paginated, and filterable by airline, origin airport and destination airport.
+This app shows a database of airline routes that is paginated, and filterable by airline, origin airport and destination airport.
 
 To run the app locally:
 
